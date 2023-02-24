@@ -11,8 +11,8 @@ const head = function(array) {
     return undefined;
   } else {
     return array[0];
-  } 
-}
+  }
+};
  
 
 
