@@ -19,8 +19,8 @@ const assertArraysEqual = function(array1, array2) {
 };
 
 
-/*Create a function flatten which will take in an array containing 
-elements including nested arrays of elements, and return a 
+/*Create a function flatten which will take in an array containing
+elements including nested arrays of elements, and return a
 "flattened" version of the array.*/
 const flatten = function(array) {
   let flattened = [];
@@ -30,9 +30,9 @@ const flatten = function(array) {
     return "Not an array!";
   }
   return flattened;
-}
+};
 
 assertArraysEqual((flatten([1, 2, [3, 4], 5, [6]])), [1, 2, 3, 4, 5, 6]);
 assertArraysEqual((flatten("1", "2", [5, 8, 1])), "Not an array!");
-assertArraysEqual((flatten(["Hi", "my", "favourite", "foods", "are", ["candy", "noodles", "coffee"]])), 
-["Hi", "my", "favourite", "foods", "are", "candy", "noodles", "coffee"]);
+assertArraysEqual((flatten(["Hi", "my", "favourite", "foods", "are", ["candy", "noodles", "coffee"]])),
+  ["Hi", "my", "favourite", "foods", "are", "candy", "noodles", "coffee"]);
