@@ -23,6 +23,7 @@ const countLetters = function(string) {
 };
 
 //Test cases
+assertEqual(countLetters("hello").l, 2); //pass
 assertEqual(JSON.stringify(countLetters("lighthouse in the house")),
   JSON.stringify({
     l: 1,
@@ -37,6 +38,7 @@ assertEqual(JSON.stringify(countLetters("lighthouse in the house")),
     n: 1,
   })); //pass
 
+assertEqual(countLetters("lighthouse in the house").h, 3); //fail
 assertEqual(JSON.stringify(countLetters("lighthouse in the house")),
   JSON.stringify({
     l: 1,
@@ -52,6 +54,7 @@ assertEqual(JSON.stringify(countLetters("lighthouse in the house")),
     z: 5,
   })); //fail
 
+assertEqual(countLetters("its just a flesh wound").a, 1); //pass
 assertEqual(JSON.stringify(countLetters("its just a flesh wound")),
   JSON.stringify({
     i: 1,
