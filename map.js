@@ -1,5 +1,3 @@
-const eqArrays = require('./eqArrays');
-
 const assertArraysEqual = require('./assertArraysEqual');
 
 //create our own map function that accepts an array and callback fn, return new array
