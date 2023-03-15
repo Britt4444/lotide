@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@britt4444/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A JavaScript utility library based off of a clone of the Lodash library",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://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@github.com/Britt4444/lotide.git"
   },
-  "author": "",
+  "author": "Britt Cowper <brittferren@gmail.com> (https://github.com/Britt4444)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Britt4444/lotide/issues"
