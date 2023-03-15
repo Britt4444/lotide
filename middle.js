@@ -13,7 +13,7 @@ const middle = function(array) {
       belly = [array[index]];
     //if array if even, return 2 middle values
     } else if (array.length % 2 === 0) {
-      belly = [array[index - 1], (array[index])];
+      belly = [array[index - 1], array[index]];
     }
   }
   return belly;
