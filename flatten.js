@@ -13,6 +13,9 @@ const flatten = function(array) {
   return flattened;
 };
 
+module.exports = flatten;
+
+//test cases
 assertArraysEqual((flatten([1, 2, [3, 4], 5, [6]])), [1, 2, 3, 4, 5, 6]);
 assertArraysEqual((flatten("1", "2", [5, 8, 1])), "Not an array!");
 assertArraysEqual((flatten(["Hi", "my", "favourite", "foods", "are", ["candy", "noodles", "coffee"]])),

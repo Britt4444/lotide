@@ -16,6 +16,8 @@ const countLetters = function(string) {
   return result;
 };
 
+module.exports = countLetters;
+
 //Test cases
 assertEqual(countLetters("hello").l, 2); //pass
 assertEqual(JSON.stringify(countLetters("lighthouse in the house")),

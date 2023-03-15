@@ -18,6 +18,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
 //Test cases
 assertArraysEqual(letterPositions("lighthouse in the house").l, [0]); //pass
 assertArraysEqual(letterPositions("lighthouse in the house").h, [3, 5, 15, 18]); //pass

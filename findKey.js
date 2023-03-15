@@ -15,6 +15,8 @@ const findKey = (object, callback) => {
   return undefined;
 };
 
+module.exports = findKey;
+
 //Test cases
 const object1 = {
   "Blue Hill": { stars: 1 },
