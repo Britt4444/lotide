@@ -11,9 +11,3 @@ const assertArraysEqual = function(array1, array2) {
 };
 
 module.exports = assertArraysEqual;
-
-// assertArraysEqual(["Meow"], ["Meow"]);
-// assertArraysEqual([1, 2, 3], [1, 2, 3]);
-// assertArraysEqual(["Hi", "There"], ["Hi", "There"]);
-// assertArraysEqual([1, 2, 3], ["1", "2", "3"]);
-// assertArraysEqual([1, 2, 3], [1, 2, 3, 4]);
