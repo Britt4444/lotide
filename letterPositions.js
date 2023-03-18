@@ -25,4 +25,4 @@ assertArraysEqual(letterPositions("lighthouse in the house").l, [0]); //pass
 assertArraysEqual(letterPositions("lighthouse in the house").h, [3, 5, 15, 18]); //pass
 assertArraysEqual(letterPositions("hello").e, [1]); //pass
 assertArraysEqual(letterPositions("hello").o, [0]); //fail
-assertArraysEqual(JSON.stringify(letterPositions("hello")), JSON.stringify({ h: [ 0 ], e: [ 1 ], l: [ 2, 3 ], o: [ 4 ] }));
+assertArraysEqual(JSON.stringify(letterPositions("hello")), JSON.stringify({ h: [ 0 ], e: [ 1 ], l: [ 2, 3 ], o: [ 4 ] })); //pass
