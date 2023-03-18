@@ -1,4 +1,3 @@
-const assertArraysEqual = require('./assertArraysEqual');
 
 const letterPositions = function(sentence) {
   const array = sentence.split("");

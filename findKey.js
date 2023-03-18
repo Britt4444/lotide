@@ -1,4 +1,3 @@
-const assertEqual = require('./assertEqual');
 
 //Implement the function findKey which takes in an object and a callback.
 //It should scan the object and return the first key for which the callback
@@ -16,17 +15,3 @@ const findKey = (object, callback) => {
 };
 
 module.exports = findKey;
-
-//Test cases
-const object1 = {
-  "Blue Hill": { stars: 1 },
-  "Akaleri":   { stars: 3 },
-  "noma":      { stars: 2 },
-  "elBulli":   { stars: 3 },
-  "Ora":       { stars: 2 },
-  "Akelarre":  { stars: 3 }
-};
-
-assertEqual(findKey(object1, x => x.stars === 2), "noma"); //pass
-assertEqual(findKey(object1, x => x.stars < 3), "Blue Hill"); //pass
-assertEqual(findKey(object1, x => x.stars > 4), undefined); //pass

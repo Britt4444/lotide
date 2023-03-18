@@ -18,7 +18,7 @@ describe('#countOnly', () => {
   it("returns undefined for results1['Agouhanna']", () => {
     expect(countOnly(firstNames, itemsToCount)['Agouhanna']).to.equal(undefined);
   });
-})
+});
 
 //test cases
 const firstNames = [

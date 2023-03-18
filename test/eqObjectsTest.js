@@ -26,7 +26,7 @@ describe('#eqObjects', () => {
   it('returns false for (sObject, lSSObject)', () => {
     assert.isNotTrue(eqObjects(sObject, lSSObject));
   });
-})
+});
 
 
 //objects for test cases

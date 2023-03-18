@@ -1,6 +1,5 @@
 // only need these if testing
-// const eqArrays = require('./eqArrays');
-// const eqObjects = require('./eqObjects');
+const eqObjects = require('./eqObjects');
 
 // FUNCTION IMPLEMENTATION
 const assertObjectsEqual = function(actual, expected) {
@@ -17,7 +16,7 @@ const assertObjectsEqual = function(actual, expected) {
 module.exports = assertObjectsEqual;
 
 //test cases
-// assertObjectsEqual(eqObjects({a: 1, b: 2, c: '3'}, {b: 2, c: '3', a: 1}), true);
-// assertObjectsEqual(eqObjects({a: 3, b: 1, c: 5, d: 2}, {d: 2, a: 3, c: 5, b: 1}), true);
-// assertObjectsEqual(eqObjects({name: 'Jane', address: '123 Centre St', cats: 2},
-//   {name: 'Jane', cats: 2, address: '123 Centre St', }), true);
+assertObjectsEqual(eqObjects({a: 1, b: 2, c: '3'}, {b: 2, c: '3', a: 1}), true);
+assertObjectsEqual(eqObjects({a: 3, b: 1, c: 5, d: 2}, {d: 2, a: 3, c: 5, b: 1}), true);
+assertObjectsEqual(eqObjects({name: 'Jane', address: '123 Centre St', cats: 2},
+  {name: 'Jane', cats: 2, address: '123 Centre St', }), true);
