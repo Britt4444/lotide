@@ -1,6 +1,6 @@
 {
   "name": "@britt4444/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript utility library based off of a clone of the Lodash library",
   "main": "index.js",
   "directories": {
