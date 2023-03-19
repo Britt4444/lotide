@@ -1,5 +1,5 @@
 
-const countLetters = function(string) {
+const countLetters = (string) => {
   //remove spaces in input string
   let spaceless = string.replace(/\s/g, "");
   //define result as an empty object

@@ -1,5 +1,5 @@
 
-const letterPositions = function(sentence) {
+const letterPositions = (sentence) => {
   const array = sentence.split("");
   let space = ' ';
   const results = {};

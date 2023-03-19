@@ -1,5 +1,5 @@
 
-const tail = function(array) {
+const tail = (array) => {
   return array.slice(1);
 };
 

@@ -1,5 +1,5 @@
 
-const head = function(array) {
+const head = (array) => {
   if (!array.length) {
     return undefined;
   } else {

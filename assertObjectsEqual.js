@@ -2,7 +2,7 @@
 const eqObjects = require('./eqObjects');
 
 // FUNCTION IMPLEMENTATION
-const assertObjectsEqual = function(actual, expected) {
+const assertObjectsEqual = (actual, expected) => {
   //import util library and require inspect
   const inspect = require('util').inspect;
   if (inspect(actual) === inspect(expected)) {

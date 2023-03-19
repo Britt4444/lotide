@@ -3,7 +3,7 @@
 elements including nested arrays of elements, and return a
 "flattened" version of the array.*/
 
-const flatten = function(array) {
+const flatten = (array) => {
   let flattened = [];
   if (Array.isArray(array)) {
     flattened = array.flat();

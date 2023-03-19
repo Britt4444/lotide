@@ -1,5 +1,5 @@
 
-const without = function(source, itemsToRemove) {
+const without = (source, itemsToRemove) => {
   let result = [];
   for (const element of source) {
     if (!itemsToRemove.includes(element)) {

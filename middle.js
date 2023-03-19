@@ -1,5 +1,5 @@
 
-const middle = function(array) {
+const middle = (array) => {
   let belly = [];
   // get index of the middle value, or ending value if number is even
   let index = Math.floor(array.length / 2);
